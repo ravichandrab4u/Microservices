@@ -1,0 +1,25 @@
+Command to build docker image
+./mvnw install dockerfile:build
+
+Sample Requests
+
+Request1
+
+http://localhost:1111/api?identifier=123456
+
+Response1
+Data From Cache Service .... 
+
+Request2
+
+http://localhost:1111/api?identifier=123456789
+
+Response2
+Data From Data Access .... 
+
+Request3
+
+http://localhost:1111/api?identifier=123456asd
+
+Response4
+Data Unavailable
